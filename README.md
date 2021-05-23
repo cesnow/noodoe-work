@@ -41,23 +41,10 @@ vim ./src/database/mongoose.provider.ts
 ```
 
 ```typescript
-const config: MongooseModuleOptions = {
-  user: '[your username]',
-  pass: '[your password]',
-  connectTimeoutMS: 1000,
-  socketTimeoutMS: 0,
-  poolSize: 15,
-  bufferMaxEntries: 0,
-  readPreference: 'secondaryPreferred',
-  useNewUrlParser: true,
-  keepAlive: true,
-  bufferCommands: false,
-  useCreateIndex: true,
-};
-export const MongooseProvider = MongooseModule.forRoot(
-  '[your mongodb connection uri with database name]',
-  config
-);
+const MONGODB_USERNAME: string = '[your mongodb username]';
+const MONGODB_PASSWORD: string = '[your mongodb password]';
+const MONGODB_CONNECTION_URI: string = '[your mongodb connection uri with database name]';
+// mongo uri like mongodb+srv://liquid.t0knb.mongodb.net/noodoe-work
 ```
 
 ### 1.3 Launch and discover
