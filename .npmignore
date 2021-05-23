@@ -1,0 +1,6 @@
+src
+.idea/
+jest.*
+tsconfig.json
+tslint.json
+.DS_Store

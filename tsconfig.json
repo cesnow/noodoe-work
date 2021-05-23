@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "*": [
+        "types/*"
+      ]
+    },
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "strictNullChecks": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": false,
+    "noEmitOnError": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressExcessPropertyErrors": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "dist/",
+    "baseUrl": "src/",
+    "listFiles": false,
+    "noEmitHelpers": false,
+    "preserveConstEnums": true,
+    "lib": [
+      "es2017",
+      "es2016",
+      "es2015",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata", "jest"
+    ],
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
